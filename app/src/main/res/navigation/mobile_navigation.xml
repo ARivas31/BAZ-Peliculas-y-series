@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_streaming"
-        android:name="com.andresrivas.bazpelculasyseries.presentation.view.PlayingNowFragment"
+        android:name="com.andresrivas.bazpeliculasyseries.presentation.view.PlayingNowFragment"
         android:label="@string/title_streaming"
         tools:layout="@layout/fragment_playing_now" />
 
     <fragment
         android:id="@+id/navigation_trending"
-        android:name="com.andresrivas.bazpelculasyseries.presentation.view.TrendingFragment"
+        android:name="com.andresrivas.bazpeliculasyseries.presentation.view.TrendingFragment"
         android:label="@string/title_trending"
         tools:layout="@layout/fragment_trending" />
 </navigation>
